@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "koa": "^0.18.0"
+    "koa": "^0.18.0",
+    "koa.io": "0.0.3"
   }
 }
