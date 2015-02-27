@@ -1,0 +1,45 @@
+html body{
+  font-family: 宋体 SimSun;
+}
+
+p.paragraph {
+  margin-top: auto; 
+  margin-bottom: auto; 
+  font-size: 16px; 
+  white-space: normal; 
+  line-height: 1.5em; 
+  background-color: white; 
+  text-align: justify;
+}
+
+span.chapter {
+  color: rgb(255, 255, 255); 
+  background-color: rgb(192, 0, 0);
+  font-size: 19px; 
+  line-height: 28.5px;
+}
+
+span.arrow {
+  color: rgb(192, 0, 0);
+  background-color: rgb(255, 255, 255); 
+  font-size: 19px; 
+  line-height: 28.5px;
+}
+
+span.title {
+  font-size: 19px; 
+  line-height: 28.5px;
+}
+
+span.content {
+  font-size: 16px; 
+  line-height: 24px; 
+  color: rgb(27, 27, 27);
+}
+
+span.logo {
+  color: rgb(255, 255, 255); 
+  background-color: rgb(192, 0, 0);
+  font-size: 16px; 
+  line-height: 24px; 
+}
