@@ -3,11 +3,11 @@ var serve = require('koa-static');
 var app = koa();
 
 app.use(serve(__dirname + '/public'));
+
 // middleware for koa
 app.use(function*() {
-  
+  this.body = '文章编辑小助手'
 });
-
 
 // middleware for scoket.io's connect and disconnect
 app.io.use(function* (next) {
