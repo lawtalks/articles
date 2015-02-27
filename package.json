@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "koa": "^0.18.0",
+    "koa-static": "^1.4.9",
+    "koa-static-cache": "^3.0.1",
     "koa.io": "0.0.3"
   },
   "engines": {

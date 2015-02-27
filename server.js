@@ -1,9 +1,11 @@
 var koa = require('koa.io');
-
+var serve = require('koa-static');
 var app = koa();
 
+app.use(serve(__dirname + '/public'));
 // middleware for koa
 app.use(function*() {
+  
 });
 
 
