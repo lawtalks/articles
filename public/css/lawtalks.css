@@ -7,28 +7,33 @@ p.paragraph {
   margin-bottom: auto; 
   font-size: 16px; 
   white-space: normal; 
-  line-height: 1.5em; 
+  line-height: 150%; 
   background-color: white; 
   text-align: justify;
 }
 
+p.chapter {
+  text-align: center;
+  line-height: 150%;
+}
+
 span.chapter {
   color: rgb(255, 255, 255); 
-  background-color: rgb(192, 0, 0);
+  background-color: rgb(255, 0, 0);
   font-size: 19px; 
-  line-height: 28.5px;
+  line-height: 150%;
 }
 
 span.arrow {
-  color: rgb(192, 0, 0);
+  color: rgb(255, 0, 0);
   background-color: rgb(255, 255, 255); 
   font-size: 19px; 
-  line-height: 28.5px;
+  line-height: 150%;
 }
 
 span.title {
   font-size: 19px; 
-  line-height: 28.5px;
+  line-height: 150%;
 }
 
 span.content {
@@ -39,7 +44,7 @@ span.content {
 
 span.logo {
   color: rgb(255, 255, 255); 
-  background-color: rgb(192, 0, 0);
+  background-color: rgb(255, 0, 0);
   font-size: 16px; 
   line-height: 24px; 
 }
