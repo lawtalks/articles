@@ -21,11 +21,7 @@ module.exports.weekly = function *(){
       j++;
     }
   }
-
-  console.log(weekly.contents)
-
   yield this.render('weekly', weekly);
-  // this.body = weekly
 }
 
 
