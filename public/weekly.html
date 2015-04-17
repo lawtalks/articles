@@ -48,33 +48,53 @@
 
                         <p style="white-space: normal; text-align: center; color: rgb(51, 51, 51); line-height: 1.5em; font-family: HelveticaNeue, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"><span style="color: rgb(229, 229, 229); line-height: 44px; font-family: Georgia, serif; font-size: 22px; font-weight: 800;">…</span></p>
 
-                        <% for (var i in contents) { %>
-                            <div id= '<%= contents[i].id %>' >
-                                <p class="paragraph chapter">
-                                    <strong>
-                                        <span class="chapter"><%= contents[i].title %></span>
-                                    </strong>
-                                </p>
-                            
+                        <div id="rdgz">
+                            <p class="paragraph chapter">
+                                <strong>
+                                    <span class="chapter">热点关注</span>
+                                </strong>
+                            </p>
 
-                            <% contents[i].paragraphs.forEach(function(paragraph){ %>
-                                <p class="paragraph"><span class="title"> </span></p>
-                                <p class="paragraph">
-                                    <strong><span class="arrow">▼ </span></strong>
-                                    <strong>
-                                        <span style="font-size: 19px; line-height: 28.5px; font-family: 宋体"><%= paragraph.title %></span>
-                                    </strong>
-                                </p>
-                                <p class="paragraph"><span class="title"> </span></p>
-                                <p class="paragraph">
-                                    <span class="content"><%= paragraph.content %></span>
-                                </p>
-                                <p class="paragraph"><span class="title"> </span></p>
-                            <% }) %>
+                        </div>
 
-                            </div>
 
-                        <% } %>
+                        <div id="sfdt">
+                            <p class="paragraph chapter">
+                                <strong>
+                                    <span class="chapter">司法动态</span>
+                                </strong>
+                            </p>
+
+                        </div>
+
+                         <div id="flfg">
+                            <p class="paragraph chapter">
+                                <strong>
+                                    <span class="chapter">法律法规</span>
+                                </strong>
+                            </p>
+
+                        </div>
+
+                        <div id="zbsc">
+                            <p class="paragraph chapter">
+                                <strong>
+                                    <span class="chapter">资本市场</span>
+                                </strong>
+                            </p>
+
+                            <p class="paragraph">
+                                <strong><span class="arrow">▼ </span></strong>
+                                <strong>
+                                    <span style="font-size: 19px; line-height: 28.5px; font-family: 宋体;">波士顿爆炸案嫌犯30项控罪全部成立</span>
+                                </strong>
+                            </p>
+                            <p class="paragraph"><span class="title"> </span></p>
+                            <p class="paragraph">
+                                <span class="content">被指控制造2013年波士顿马拉松赛爆炸案的男子察尔纳耶夫被法庭裁定犯下所有他被控的30项罪行，其中不少罪名可判死刑。马萨诸塞州的陪审团现在将决定21岁的焦哈尔·察尔纳耶夫受到什么样的判决。2013年4月他在波士顿马拉松赛终点线制造的爆炸案炸死3人，炸伤260人。他的律师承认他在攻击中的作用，但强调焦哈尔的哥哥是主谋。在案件曝光的追捕中，察尔纳耶夫和他的哥哥在逃跑中还打死一名警察。周三（4月8日），陪审团仅共用了两天里的12个小时就达成了对他的有罪裁决。</span>
+                            </p>
+                            <p class="paragraph"><span class="title"> </span></p>
+                        </div>
 
 
                         
